@@ -1,0 +1,28 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    margin: 92px 442px 92px 148px;
+    min-width: 690px;
+    min-height: 429px;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin: 92px 286px 92px 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        margin: 88px 24px 88px 24px; 
+        min-height: 429px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro {
+        margin: 86px 16px 64px 16px;
+        min-width: 288px;
+        min-height: 754px;
+    }
+}

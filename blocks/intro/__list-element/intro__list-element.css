@@ -1,0 +1,9 @@
+.intro__list-element {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: normal;;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: white;
+    align-self: start;
+}
