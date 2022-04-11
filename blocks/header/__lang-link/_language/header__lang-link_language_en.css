@@ -1,4 +1,4 @@
-.header__lang-link_en {
+.header__lang-link_language_en {
     font-family: 'Inter';
     font-weight: normal;
     font-size: 24px;
@@ -9,13 +9,13 @@
 }
 
 
-.header__lang-link_en:hover {
+.header__lang-link_language_en:hover {
     cursor: url(../../../../Images/Pointer.svg), pointer;
 }
 
 @media screen and (max-width: 425px) {
 
-    .header__lang-link_en {
+    .header__lang-link_language_en {
         font-family: 'Inter';
         font-weight: normal;
         font-size: 18px;

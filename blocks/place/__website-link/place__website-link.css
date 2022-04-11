@@ -1,4 +1,4 @@
-.place__website_link {
+.place__website-link {
     font-family: 'Inter';
     font-weight: normal;
     font-size: 18px;
@@ -8,6 +8,6 @@
 }
 
 
-.place__website_link:hover {
+.place__website-link:hover {
     cursor: url(../../../../images/Pointer.svg), pointer;
 }
