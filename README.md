@@ -8,3 +8,5 @@
 
 Изменения курсора при наведении на ссылки.
 
+Работа выложена на Git Hub Pages 
+[Ссылка на GH Pages](https://konevvlad.github.io/russian-travel/)
