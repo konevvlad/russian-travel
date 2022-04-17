@@ -1,32 +1,38 @@
 .cover__subtitle {
-    margin: 0 35% 245px 35%;
-    font-family: 'Inter';
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
+    margin: 0 calc(412/1280*100vw) calc(245/1280*100vw) calc(412/1280*100vw);
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: calc(18/1280*100vw);
+    line-height: calc(22/1280*100vw);
     text-align: center;
     color: white;
     z-index: 3;
     text-decoration: none;
 }
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (min-width:900px) and (max-width:1200px) {
     .cover__subtitle {
-        margin: 0 32% 195px 32%;
+        margin: 0 calc(332/1024*100vw) calc(195/1024*100vw) calc(332/1024*100vw);
+        font-size: calc(18/1024*100vw);
+        line-height: calc(22/1024*100vw);
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width:500px) and (max-width:900px) {
     .cover__subtitle {
-        margin: 0 26% 115px 26%;
+        margin: 0 calc(204/768*100vw) calc(115/768*100vw) calc(204/768*100vw);
+        font-size: calc(18/768*100vw);
+        line-height: calc(22/768*100vw);
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width:500px) {
     .cover__subtitle {
-        margin: 0 5% 33px 5%;
+        margin: 0 calc(18/320*100vw) calc(33/320*100vw) calc(18/320*100vw);
+        font-size: calc(14/320*100vw);
+        line-height: calc(16/320*100vw);
         white-space: pre;
-        font-size: 14px;
-        line-height: 16px;
     }
 }

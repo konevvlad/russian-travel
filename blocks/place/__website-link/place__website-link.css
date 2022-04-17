@@ -1,13 +1,39 @@
 .place__website-link {
-    font-family: 'Inter';
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(18/1280*100vw);
+    line-height: calc(22/1280*100vw);
     color: white;
     text-decoration: underline;
+    width: max-content;
+    transition: opacity .3s linear;
 }
 
 
 .place__website-link:hover {
-    cursor: url(../../../../images/Pointer.svg), pointer;
+    cursor: url('../../../images/Pointer.svg'), pointer;
+    opacity: 0.8;
+}
+
+
+@media screen and (min-width:900px) and (max-width:1200px) {
+    .place__website-link {
+        font-size: calc(18/1024*100vw);
+        line-height: calc(22/1024*100vw);
+      }   
+}
+
+@media screen and (min-width:500px) and (max-width:900px) {
+    .place__website-link {
+        font-size: calc(18/768*100vw);
+        line-height: calc(22/768*100vw);
+      }   
+}
+
+@media screen and (max-width:500px) {
+    .place__website-link {
+        font-size: calc(18/320*100vw);
+        line-height: calc(22/320*100vw);
+      }   
 }

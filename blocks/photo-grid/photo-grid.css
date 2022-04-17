@@ -1,46 +1,42 @@
 .photo-grid {
     display: grid;
-    grid-template-columns: 284px 284px 284px 284px;
-    grid-template-rows: 213px 213px 213px;
-    gap: 16px;
-    max-width: 1184px;
-    max-height: 671px;
-    margin: 0 auto 92px auto;
+    grid-template-columns: repeat(4, calc(284/1280*100vw));
+    grid-template-rows: repeat(3, calc(213/1280*100vw));
+    gap: calc(16/1280*100vw);
+    width: calc(1184/1280*100vw);
+    height: calc(671/1280*100vw);
+    margin: 0 auto calc(92/1280*100vw) auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width:900px) and (max-width:1200px) {
     .photo-grid {
-        margin: 0px auto 92px auto;
-        display: grid;
-        grid-template-columns: 300px 300px 300px;
-        grid-template-rows: 225px 225px 225px 225px;
-        gap: 14px;
-        max-width: 928px;
-        max-height: 942px;
-    }
+    grid-template-columns: repeat(3, calc(300/1024*100vw));
+    grid-template-rows: repeat(4, calc(225/1024*100vw));
+    gap: calc(14/1024*100vw);
+    width: calc(928/1024*100vw);
+    height: calc(942/1024*100vw);
+    margin: 0 auto calc(92/1024*100vw) auto;
+}
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width:500px) and (max-width:900px) {
     .photo-grid {
-        margin: 0px auto 88px auto;
-        display: grid;
-        grid-template-columns: 352px 352px;
-        grid-template-rows:repeat(6, 264px);
-        gap: 16px;
-        max-width: 720px;
-        max-height: 1664px;
-    }
+    grid-template-columns: repeat(2, calc(352/768*100vw));
+    grid-template-rows: repeat(6, calc(264/768*100vw));
+    gap: calc(16/768*100vw);
+    width: calc(720/768*100vw);
+    height: calc(1664/768*100vw);
+    margin: 0 auto calc(88/768*100vw) auto;
+}
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width:500px) {
     .photo-grid {
-        display: grid;
-        grid-template-columns: 288px;
-        grid-template-rows: repeat(12, 216px);
-        gap: 12px;
-        max-width: 288px;
-        max-height: 2724px;
-        margin: 0 auto 64px auto;
-    }
+    grid-template-columns: calc(288/320*100vw);
+    grid-template-rows: repeat(12, calc(216/320*100vw));
+    gap: calc(12/320*100vw);
+    max-width: calc(288/320*100vw);
+    height: calc(2724/320*100vw);
+    margin: 0 auto calc(64/320*100vw) auto;
+}
 }

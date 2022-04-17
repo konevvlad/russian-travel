@@ -1,19 +1,20 @@
 .cover {
     display: flex;
     flex-direction: column;
-    max-width: 1184px;
-    max-height: 740px;
-    margin: 92px auto 92px auto;
+    justify-content: center;
+    width: calc(1184/1280*100vw);
+    height: calc(740/1280*100vw);
+    margin: calc(92/1280*100vw) auto calc(92/1280*100vw) auto;
     background-image: url(../../Images/__background.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
     word-wrap: break-word;
+    text-decoration: none;
 }
 
 .cover:hover .cover__overlay {
-    background: #2A2C2F;
     opacity: 0.8;
     cursor: url(../../images/Pointer.svg), pointer;
     
@@ -27,53 +28,26 @@
     cursor: url(../../images/Pointer.svg), pointer;
 }
 
-@media screen and (max-width: 1024px) {
-    .cover {
-        max-width: 100vw;
-        max-height: calc(100vw/1.6);
-        margin: 92px 0 92px 0;
-    }
+@media screen and (min-width:900px) and (max-width:1200px) {
+ .cover {
+    width: 100%;
+    height: calc(640/1024*100vw);
+    margin: calc(92/1024*100vw) 0 calc(92/1024*100vw) 0;
+ }
 }
 
-@media screen and (max-width:880px) {
+@media screen and (min-width:500px) and (max-width:900px) {
     .cover {
-        max-width: 100vw;
-        max-height: calc(100vw);
-        margin: 92px 0 92px 0;
-    }
-
+        width: 100%;
+        height: calc(480/768*100vw);
+        margin: calc(90/768*100vw) 0 calc(88/768*100vw) 0;
+     }
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width:500px) {
     .cover {
-        max-width: 100vw;
-        max-height: calc(100vw/1.6);
-        margin: 90px 0 88px 0;
-    }
-}
-
-@media screen and (max-width: 715px) {
-    .cover {
-        max-width: 100vw;
-        max-height: calc(100vw);
-        margin: 90px 0 88px 0;
-    }
-}
-
-@media screen and (max-width: 608px) {
-    .cover {
-        max-width: 100vw;
-        max-height: calc(150vw);
-        margin: 90px 0 88px 0;
-        background-size: cover;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .cover {
-        max-width: 100vw;
-        max-height: 200px;
-        margin: 0;
-    }
+        width: 100%;
+        height: calc(200/320*100vw);
+        margin: calc(66/320*100vw) 0 calc(64/320*100vw) 0;
+     }
 }

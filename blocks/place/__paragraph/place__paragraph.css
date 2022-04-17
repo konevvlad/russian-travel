@@ -1,32 +1,32 @@
 .place__paragraph {
-    font-family: 'Inter';
-    font-weight: normal;
-    font-size: 18px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(18/1280*100vw);
     line-height: 163%;
     color: white;
     margin-top: 0;
-    margin-bottom: 26px;
-}
+    margin-bottom: calc(26/1280*100vw);
+    align-self: start;
+    }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width:900px) and (max-width:1200px) {
     .place__paragraph {
-        max-width: 456px;
+        font-size: calc(18/1024*100vw);
+        margin-bottom: calc(26/1024*100vw);
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width:500px) and (max-width:900px) {
     .place__paragraph {
-        font-size: 16px;
-        line-height: 26.08px;
-        margin-bottom: 25px;
-        max-width: 352px;
+        font-size: calc(16/768*100vw);
+        margin-bottom: calc(25/768*100vw);
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width:500px) {
     .place__paragraph {
-        font-size: 16px;
-        line-height: 26.08px;
-        margin: 0 16px 25px 16px;
+        font-size: calc(16/320*100vw);
+        margin-bottom: calc(25/320*100vw);
     }
 }

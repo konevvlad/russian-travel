@@ -1,7 +1,7 @@
 .place__headings {
     display: grid;
-    grid-template-columns: 460px 484px;
-    gap: 40px;
+    grid-template-columns: calc(460/1280*100vw) calc(calc(984/1280*100vw) - calc(460/1280*100vw) - calc(40/1280*100vw));
+    gap: calc(40/1280*100vw);
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,34 +1,39 @@
 .cover__title {
-    margin: 245px 26% 32px 26%;
-    font-family: Inter;
-    font-size: 72px;
-    font-weight: bold;
-    line-height: 76px;
-    letter-spacing: 0em;
+    margin: calc(245/1280*100vw) calc(312/1280*100vw) calc(32/1280*100vw) calc(312/1280*100vw);
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: calc(72/1280*100vw);
+    font-style: normal;
+    font-weight: 900;
+    line-height: calc(76/1280*100vw);
     text-align: center;
     color: white;
     z-index: 3;
     text-decoration: none;
+    white-space: pre;
 }
 
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (min-width:900px) and (max-width:1200px) {
     .cover__title {
-        margin: 195px 22% 32px 22%;
+        margin: calc(195/1024*100vw) calc(232/1024*100vw) calc(32/1024*100vw) calc(232/1024*100vw);
+        font-size: calc(72/1024*100vw);
+        line-height: calc(76/1024*100vw);
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width:500px) and (max-width:900px) {
     .cover__title {
-        margin: 115px 13% 32px 13%;
+        margin: calc(115/768*100vw) calc(104/768*100vw) calc(32/768*100vw) calc(104/768*100vw);
+        font-size: calc(72/768*100vw);
+        line-height: calc(76/768*100vw);
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width:500px) {
     .cover__title {
-        margin: 33px 10% 16px 10%;
-        max-width: 288px;
-        font-size: 32px;
-        line-height: 35px;
+        margin: calc(33/320*100vw) calc(16/320*100vw) calc(16/320*100vw) calc(16/320*100vw);
+        font-size: calc(32/320*100vw);
+        line-height: calc(35/320*100vw);
     }
 }
