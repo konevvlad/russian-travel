@@ -20,7 +20,6 @@
 
 @media screen and (max-width:500px) {
     .place__text {
-        margin: calc(32/320*100vw) 0 0 0;
         width: 100%;
 
     }
