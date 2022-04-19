@@ -1,13 +1,15 @@
 .place__website-url-heading {
     font-family: 'Inter', 'Arial', sans-serif;
-    font-size: calc(12/1280*100vw);
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: calc(12/1280*100vw);
-    letter-spacing: calc(2/1280*100vw);
+    line-height: 12px;
+    letter-spacing: 2px;
     text-align: left;
     color: #AAAAAA;
     width: max-content;
+    height: min-content;
+   
 }
 
 @media screen and (min-width:900px) and (max-width:1200px) {
@@ -23,6 +25,7 @@
         font-size: calc(12/768*100vw);
         line-height: calc(12/768*100vw);
         letter-spacing: calc(2/768*100vw);
+        margin: 0;
     }   
 }
 
@@ -31,5 +34,6 @@
         font-size: calc(12/320*100vw);
         line-height: calc(12/320*100vw);
         letter-spacing: calc(2/320*100vw);
+        margin-top:0;
     }   
 }

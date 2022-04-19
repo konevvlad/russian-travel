@@ -2,10 +2,10 @@
     font-family: 'Inter', 'Arial', sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: calc(72/1280*100vw);
-    line-height: calc(76/1280*100vw);
+    font-size: 72px;
+    line-height: 76px;
     color: white;
-    max-width: calc(460/1280*100vw);
+    max-width: 460px;
     margin: 0;
 }
 
@@ -22,13 +22,17 @@
         max-width: calc(340/768*100vw);
         font-size: calc(42/768*100vw);
         line-height: calc(46/768*100vw);
+        white-space: pre-wrap;
     }
 }
 
 @media screen and (max-width:500px) {
     .place__title {
+        margin-left: calc(16/320*100vw);
         max-width: calc(288/320*100vw);
         font-size: calc(32/320*100vw);
-        line-height: calc(35/320*100vw);
+        line-height: 109%;
+        height: min-content;
+        
     }
 }

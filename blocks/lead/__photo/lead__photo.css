@@ -1,6 +1,8 @@
 .lead__photo {
-    width: calc(984/1280*100vw);
-    height: calc(615/1280*100vw);
+    margin: 0;
+    padding: 0;
+    width: 984px;
+    height: 615px;
 }
 
 @media screen and (min-width:900px) and (max-width:1200px) {
@@ -20,6 +22,6 @@
 @media screen and (max-width:500px) {
     .lead__photo {
         width: 100%;
-        min-height: calc(200/320*100vw); 
+        height: calc(200/320*100vw); 
     }
 }

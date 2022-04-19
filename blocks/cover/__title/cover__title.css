@@ -1,10 +1,10 @@
 .cover__title {
-    margin: calc(245/1280*100vw) calc(312/1280*100vw) calc(32/1280*100vw) calc(312/1280*100vw);
+    margin: 245px 312px 32px 312px;
     font-family: 'Inter', 'Arial', sans-serif;
-    font-size: calc(72/1280*100vw);
+    font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    line-height: calc(76/1280*100vw);
+    line-height: 76px;
     text-align: center;
     color: white;
     z-index: 3;

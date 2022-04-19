@@ -1,8 +1,8 @@
 .intro {
     display: flex;
     flex-direction: column;
-    margin: calc(92/1280*100vw) calc(442/1280*100vw) calc(92/1280*100vw) calc(148/1280*100vw);
-    min-width: calc(690/1280*100vw);
+    margin: 92px 442px 92px 148px;
+    min-width: 690px;
 }
 
 @media screen and (min-width:900px) and (max-width:1200px) {
@@ -23,5 +23,6 @@
     .intro {
         margin: calc(64/320*100vw) calc(16/320*100vw) calc(64/320*100vw) calc(16/320*100vw);
         max-width: calc(288/320*100vw);
+        min-width: 0;
         }
 }

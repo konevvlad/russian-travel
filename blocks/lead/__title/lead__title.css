@@ -2,13 +2,13 @@
     margin: 0 auto;
     align-self: center;
     font-family: 'Inter', 'Arial', sans-serif;
-    font-size: calc(96/1280*100vw);
+    font-size: 96px;
     font-style: normal;
     font-weight: 900;
-    line-height: calc(100/1280*100vw);
+    line-height: 100px;
     letter-spacing: 0em;
     color: white;
-   width: calc(720/1280*100vw);
+    width: 720px;
     text-align: center;
 
 }

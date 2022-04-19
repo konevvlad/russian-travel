@@ -2,8 +2,8 @@
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: calc(18/1280*100vw);
-    line-height: calc(22/1280*100vw);
+    font-size: 18px;
+    line-height: 22px;
     color: white;
     text-decoration: underline;
     width: max-content;

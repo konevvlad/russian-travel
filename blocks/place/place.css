@@ -1,17 +1,16 @@
 .place {
-    margin-top: calc(80/1280*100vw);
+    margin-top: 80px;
     display: grid;
-    grid-template-columns: calc(460/1280*100vw) calc(484/1280*100vw);
-    grid-template-rows: minmax(calc(76/1280*100vw) calc(152/1280*100vw)) calc(460/1280*100vw);
-    row-gap: calc(48/1280*100vw);
-    column-gap: calc(40/1280*100vw);
+    grid-template-columns: 460px 484px;
+    grid-template-rows: minmax(76px 152px) 460px;
+    row-gap: 48px;
+    column-gap: 40px;
 }
 
 
 @media screen and (min-width:900px) and (max-width:1200px) {
     .place {
         margin-top: calc(80/1024*100vw);
-        display: grid;
         grid-template-columns: calc(440/1024*100vw) calc(456/1024*100vw);
         grid-template-rows: minmax(calc(76/1024*100vw) calc(152/1024*100vw)) calc(440/1280*100vw);
         row-gap: calc(48/1024*100vw);
@@ -22,7 +21,6 @@
 @media screen and (min-width:500px) and (max-width:900px) {
     .place {
         margin-top: calc(73/768*100vw);
-        display: grid;
         grid-template-columns: calc(340/768*100vw) calc(352/768*100vw);
         grid-template-rows: minmax(calc(46/768*100vw) calc(92/768*100vw)) minmax(calc(340/768*100vw) calc(441/768*100vw));
         row-gap: calc(48/768*100vw);
@@ -32,10 +30,10 @@
 
 @media screen and (max-width:500px) {
     .place {
-        display: grid;
+        margin-top: calc(50/320*100vw);
         grid-template-columns: 100%;
-        grid-template-rows: max-content max-content max-content max-content;
-        row-gap: calc(50/768*100vw);
+        grid-template-rows: min-content min-content min-content min-content;
+        row-gap: calc(32/320*100vw);
     }
 
 }

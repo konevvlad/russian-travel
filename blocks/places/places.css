@@ -1,6 +1,6 @@
 .places {
-    margin:0 calc(148/1280*100vw) 0 calc(148/1280*100vw);
-    width: calc(984/1280*100vw);
+    margin:0 148px 0 148px;
+    width: 984px;
   
 }
 

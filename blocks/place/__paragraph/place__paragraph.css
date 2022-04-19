@@ -2,31 +2,34 @@
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: calc(18/1280*100vw);
-    line-height: 163%;
+    font-size: 18px;
+    line-height: 29px;
     color: white;
-    margin-top: 0;
-    margin-bottom: calc(26/1280*100vw);
+    margin: 0;
+    padding-bottom: 0;
     align-self: start;
     }
 
 @media screen and (min-width:900px) and (max-width:1200px) {
     .place__paragraph {
         font-size: calc(18/1024*100vw);
-        margin-bottom: calc(26/1024*100vw);
+       
+        line-height: calc(29/1024*100vw);
     }
 }
 
 @media screen and (min-width:500px) and (max-width:900px) {
     .place__paragraph {
         font-size: calc(16/768*100vw);
-        margin-bottom: calc(25/768*100vw);
+        line-height: calc(26/768*100vw);
     }
 }
 
 @media screen and (max-width:500px) {
     .place__paragraph {
         font-size: calc(16/320*100vw);
-        margin-bottom: calc(25/320*100vw);
+        white-space: pre-wrap;
+        height: min-content;
+        line-height: calc(26/320*100vw);
     }
 }

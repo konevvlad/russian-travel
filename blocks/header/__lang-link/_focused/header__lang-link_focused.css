@@ -1,3 +1,6 @@
 .header__lang-link_focused {
     text-decoration: underline;
+    -webkit-text-underline-position: under;
+     -ms-text-underline-position: below;
+     text-underline-position: under; 
 }

@@ -1,12 +1,16 @@
 .place__text {
-    width:calc(484/1280*100vw);
+    display: flex;
+    flex-direction: column;
+    width:484px;
     box-sizing: border-box;
+    row-gap: 26px;
 }
 
 
 @media screen and (min-width:900px) and (max-width:1200px) {
     .place__text {
         width:calc(456/1024*100vw);
+        row-gap: calc(26/1024*100vw);
     }
     
 }
@@ -14,13 +18,17 @@
 @media screen and (min-width:500px) and (max-width:900px) {
     .place__text {
         width:calc(352/768*100vw);
+        row-gap: calc(25/768*100vw);
     }
     
 }
 
 @media screen and (max-width:500px) {
     .place__text {
-        width: 100%;
+        margin: 0 calc(16/320*100vw) 0 calc(16/320*100vw);
+        width: calc(288/320*100vw);
+        row-gap: calc(25/320*100vw);
+
 
     }
     

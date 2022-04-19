@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
@@ -40,11 +41,4 @@
 @import url(../vendor/fonts.css);
 
 
-.index {
-    background-color:#2A2C2F;
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', 'Arial', sans-serif;
-    
-}
 

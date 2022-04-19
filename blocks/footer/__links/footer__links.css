@@ -20,5 +20,6 @@
     .footer__links {
         display: flex;
         flex-direction: column;
+        row-gap: calc(32/320*100vw);
     }
 }
