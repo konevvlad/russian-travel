@@ -1,14 +1,19 @@
 .header {
-    margin: 0 calc(48/1280*100vw) calc(56/1280*100vw) calc(48/1280*100vw);
-    padding-top: calc(28/1280*100vw);
+    margin: 28px auto 48px auto;
+    box-sizing: border-box;
+    padding: 0 48px 10px 48px;
     display: flex;
     flex-direction:row;
     justify-content: space-between;
+    align-items: top;
+    max-width: 1280px;
 }
 
 @media screen and (min-width:900px) and (max-width:1200px) {
     .header {
         margin: 0 calc(48/1024*100vw) calc(48/1024*100vw) calc(48/1024*100vw);
+        box-sizing: content-box;
+        padding: 0;
         padding-top: calc(28/1024*100vw);
     }
 }
@@ -16,6 +21,8 @@
 @media screen and (min-width:500px) and (max-width:900px) {
     .header {
         margin: 0 calc(24/768*100vw) calc(48/768*100vw) calc(24/768*100vw);
+        box-sizing: content-box;
+        padding: 0;
         padding-top: calc(28/768*100vw);
     }
 }
@@ -23,6 +30,8 @@
 @media screen and (max-width:500px) {
     .header {
         margin: 0 calc(16/320*100vw) calc(48/320*100vw) calc(16/320*100vw);
+        box-sizing: content-box;
+        padding: 0;
         padding-top: calc(16/320*100vw);
     }
 }

@@ -2,12 +2,12 @@
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: calc(24/1280*100vw);
-    line-height: calc(28/1280*100vw);
+    font-size: 24px;
+    line-height: 28px;
     color: white;
     text-align: right;
     text-decoration: none;
-    margin-left: calc(18/1280*100vw);
+    margin-left:18px;
     transition: opacity .3s linear;
     
 }

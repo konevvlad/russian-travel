@@ -1,6 +1,6 @@
 .header__logo {
-    width: calc(176/1280*100vw);
-    height: calc(52/1280*100vw);
+    width: 176px;
+    height: 52px;
 }
 
 @media screen and (min-width:900px) and (max-width:1200px) {
