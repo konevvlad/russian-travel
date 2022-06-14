@@ -16,6 +16,7 @@
 
 @media screen and (min-width:900px) and (max-width:1200px) {
     .lead__title {
+        transition: 0.3s linear;
         font-size: calc(96/1024*100vw);
         line-height: calc(100/1024*100vw);
         width: calc(720/1024*100vw);
